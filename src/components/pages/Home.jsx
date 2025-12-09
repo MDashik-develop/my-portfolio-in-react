@@ -212,7 +212,7 @@ function Home() {
             </div>
 
 
-            <div className="lg:w-2/3 bg-white h-full min-h-full flex flex-col gap-8 shadow-[0_1px_4px_rgba(0,0,0,0.16)] rounded-2xl p-5">
+            <div className="lg:w-1/3 bg-white h-full min-h-full flex flex-col gap-8 shadow-[0_1px_4px_rgba(0,0,0,0.16)] rounded-2xl p-5">
                <div className='w-full flex justify-between'>
                   <marquee behavior="" direction="" className='text-lg font-semibold bg-gray-100 text-gray-700 p-3 rounded-xl'>
                      Open for Projects ✨ Creating Digital Magic 🎨 Open for Projects ✨ lding Modern Web Experiences 💻
