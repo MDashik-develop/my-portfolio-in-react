@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import "tailwindcss";
+body{
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+  
+      .background-shapes .common-shape {
+         position: fixed;
+         z-index: 1;
+      }
+      .background-shapes .shape-1 {
+         top: -20%;
+         left: -20%;
+      }
+      .background-shapes .shape-2 {
+         bottom: -20%;
+         right: -20%;
+      }
+      .background-shapes .threed-shape-1 {
+         position: fixed;
+         top: 20%;
+         left: 10%;
+         z-index: -1;
+      }
+      .background-shapes .threed-shape-2 {
+         position: fixed;
+         bottom: 20%;
+         right: 9%;
+         z-index: -1;
+      }
+
+      @keyframes rotateAnimation {
+         0% {
+            transform: rotate(0deg);
+         }
+         100% {
+            transform: rotate(1turn);
+         }
+      }
+
+      .common-shape {
+         animation: rotateAnimation 60s linear infinite;
+      }
+
+      @media (max-width: 1399.98px) {
+         .background-shapes .threed-shape-2 {
+            display: none;
+         }
+         .background-shapes .threed-shape-1{
+            display: none;
+         }
+      }
+
+      .no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none; /* IE & Edge */
+    scrollbar-width: none; /* Firefox */
+}
