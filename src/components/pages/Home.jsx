@@ -44,12 +44,14 @@ function Home() {
                      <a href="https://x.com/MDashik_develop" className="text-gray-700 hover:text-green-500 border border-gray-300 rounded-md p-3 duration-300">
                         <FaTwitter size={24} />
                      </a>
-                     <a href="mailto:mdashik.official.mail@gmail.com" className="text-gray-700 hover:text-green-500 border border-gray-300 rounded-md p-3 duration-300">
+                     <a href="mailto:mdashik.official.mail@gmail.com"
+                        className="w-1/2 bg-green-400 text-white p-4 text-xl font-semibold rounded-md text-center">
                         <FaGoogle size={24} />
                      </a>
                      <a href="https://wa.me/8801795864799"
                         target="_blank"
-                        className="text-gray-700 hover:text-green-500 border border-gray-300 rounded-md p-3 duration-300">
+                        rel="noopener noreferrer"
+                        className="w-1/2 border border-green-100 text-green-400 p-4 text-xl font-semibold rounded-md text-center">
                         <FaWhatsapp size={24} />
                      </a>
                   </div>
