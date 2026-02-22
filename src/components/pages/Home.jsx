@@ -43,7 +43,7 @@ function Home() {
                      <button className='w-1/2 border border-green-100 text-green-400 p-4 text-xl font-semibold rounded-md'>Let's Talk</button>
                   </div>
                   <div className="w-full flex items-center justify-between gap-2 overflow-x-auto md:overflow-x-hidden">
-                     <a href="https://web.facebook.com/?_rdc=1&_rdr#" className="text-gray-700 hover:text-green-500 border border-gray-300 rounded-md p-3 duration-300">
+                     <a href="http://web.facebook.com/saashiq01/" className="text-gray-700 hover:text-green-500 border border-gray-300 rounded-md p-3 duration-300">
                         <FaFacebook size={24} />
                      </a>
                      <a href="https://www.linkedin.com/in/mdashik-develop/" className="text-gray-700 hover:text-green-500 border border-gray-300 rounded-md p-3 duration-300">
