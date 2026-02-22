@@ -1,4 +1,3 @@
-"use client"
 import React from 'react'
 import me from '../../assets/me.jpg'
 import news from '../../assets/news.png'
