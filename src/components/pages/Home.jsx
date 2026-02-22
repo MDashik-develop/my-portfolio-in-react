@@ -1,3 +1,4 @@
+"client use"
 import React from 'react'
 import me from '../../assets/me.jpg'
 import { FaBootstrap, FaBriefcase, FaCode, FaFacebook, FaLaptopCode, FaReact, FaTools, FaWordpress, FaWordpressSimple, FaTwitter, FaLinkedin, FaGoogle, FaWhatsapp } from 'react-icons/fa'
