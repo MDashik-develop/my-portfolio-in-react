@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import me from '../../assets/me.jpg'
-import { FaBootstrap, FaBriefcase, FaCode, FaFacebook, FaLaptopCode, FaReact, FaTools, FaWordpress, FaWordpressSimple, FaTwitter, FaLinkedin} from 'react-icons/fa'
+import { FaBootstrap, FaBriefcase, FaCode, FaFacebook, FaLaptopCode, FaReact, FaTools, FaWordpress, FaWordpressSimple} from 'react-icons/fa'
 import Timeline from '../Timeline'
 import { BsArrow90DegUp, BsCodeSlash, BsViewList } from 'react-icons/bs'
 import { GrView } from 'react-icons/gr'
@@ -38,12 +38,12 @@ function Home() {
                      <a href="https://web.facebook.com/?_rdc=1&_rdr#" className="text-gray-700 hover:text-green-500 border border-gray-300 rounded-md p-3 duration-300">
                         <FaFacebook size={24} />
                      </a>
-                     <a href="https://www.linkedin.com/in/mdashik-develop/" className="text-gray-700 hover:text-green-500 border border-gray-300 rounded-md p-3 duration-300">
+                     {/* <a href="https://www.linkedin.com/in/mdashik-develop/" className="text-gray-700 hover:text-green-500 border border-gray-300 rounded-md p-3 duration-300">
                         <FaLinkedin size={24} />
                      </a>
                      <a href="https://x.com/MDashik_develop" className="text-gray-700 hover:text-green-500 border border-gray-300 rounded-md p-3 duration-300">
                         <FaTwitter size={24} />
-                     </a>
+                     </a> */}
                      {/* <a href="mailto:mdashik.official.mail@gmail.com"
                         className="w-1/2 bg-green-400 text-white p-4 text-xl font-semibold rounded-md text-center">
                         <FaGoogle size={24} />
