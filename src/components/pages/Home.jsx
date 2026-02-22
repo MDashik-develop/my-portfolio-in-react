@@ -1,6 +1,8 @@
 "use client"
 import React from 'react'
 import me from '../../assets/me.jpg'
+import news from '../../assets/news.png'
+import demand from '../../assets/demand.jpg'
 import { FaBootstrap, FaBriefcase, FaCode, FaFacebook, FaLaptopCode, FaReact, FaTools, FaWordpress, FaWordpressSimple} from 'react-icons/fa'
 import Timeline from '../Timeline'
 import { BsArrow90DegUp, BsCodeSlash, BsViewList } from 'react-icons/bs'
