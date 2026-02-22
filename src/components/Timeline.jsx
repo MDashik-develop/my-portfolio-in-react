@@ -27,7 +27,7 @@ const experienceData = [
       company: "Vida Technology ",
       position: "Jr Full-Stack Developer",
       time: "2024 - Running",
-      logo: 'M12 2c-3.1 0-5.5 1.5-6.5 4.5-.4 1.3-.3 2.8.2 4.1.6 1.6 1.7 3 3 4.2C9.7 17.5 11 19 12 19s2.3-1.5 3.3-4.2c1.3-1.2 2.4-2.6 3-4.2.5-1.3.6-2.8.2-4.1C17.5 3.5 15.1 2 12 2z',
+      logo: 'https://cm.vidatech.com.bd/storage/logos/app/tYuHh23zPLT6DCS1768895830.png?v=1768895843',
       color: 'bg-gray-700', // Changed for professional dark look
       iconColor: 'text-white'
    },
