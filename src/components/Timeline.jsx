@@ -28,7 +28,7 @@ const experienceData = [
       position: "Jr Full-Stack Developer",
       time: "2024 - Running",
       logo: 'https://cm.vidatech.com.bd/storage/logos/app/tYuHh23zPLT6DCS1768895830.png?v=1768895843',
-      color: 'bg-gray-700', // Changed for professional dark look
+      color: 'bg-white', // Changed for professional dark look
       iconColor: 'text-white'
    },
    {
