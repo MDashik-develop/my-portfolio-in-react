@@ -139,11 +139,11 @@ function Home() {
                </div>
                <div className='flex flex-col gap-3 justify-center h-full'>
                   <div className='p-5 h-1/2 bg-gray-100 flex justify-center items-center rounded-2xl relative'>
-                     <img src="https://bentofolio-react.vercel.app/assets/img/projects/project-1.png"
+                     <img src={news}
                         alt=""
                         className='rounded-2xl h-full ' />
                      <div className='absolute top-0 left-0 w-full h-full rounded-2xl flex flex-col justify-center items-end overflow-hidden'>
-                        <a href="#" className='group h-10/12 w-full flex justify-center items-center'>
+                        <a href="https://demos.ashik.top/" target='_blank' className='group h-10/12 w-full flex justify-center items-center'>
                            <GrView size={40} className='group-hover:opacity-100 opacity-0 bg-white hover:bg-green-300 p-2.5 rounded-full shadow-xl  transition-all duration-300' />
                         </a>
                         <div className='[background-image:linear-gradient(transparent,rgb(0,0,0,0.2))] p-3 text-left w-full h-2/12'>
@@ -152,11 +152,11 @@ function Home() {
                      </div>
                   </div>
                   <div className='p-5 h-1/2 bg-gray-100 flex justify-center items-center rounded-2xl relative'>
-                     <img src="https://bentofolio-react.vercel.app/assets/img/projects/project-1.png"
+                     <img src={demand}
                         alt=""
                         className='rounded-2xl h-full ' />
                      <div className='absolute top-0 left-0 w-full h-full rounded-2xl flex flex-col justify-center items-end overflow-hidden'>
-                        <a href="#" className='group h-10/12 w-full flex justify-center items-center'>
+                        <a href="https://tavaasclothing.com/" target='_blank' className='group h-10/12 w-full flex justify-center items-center'>
                            <GrView size={40} className='group-hover:opacity-100 opacity-0 bg-white hover:bg-green-300 p-2.5 rounded-full shadow-xl  transition-all duration-300' />
                         </a>
                         <div className='[background-image:linear-gradient(transparent,rgb(0,0,0,0.2))] p-3 text-left w-full h-2/12'>
