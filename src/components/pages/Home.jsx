@@ -57,14 +57,14 @@ function Home() {
             <div className='h-auto min-h-full flex flex-col sm:flex-row lg:flex-col justify-between gap-5 lg:w-1/3'>
                <div className='h-1/2 w-full flex flex-col items-start gap-3 bg-white shadow-[0_1px_4px_rgba(0,0,0,0.16)] rounded-2xl p-5 text-center '>
                   <h3 className='text-2xl font-semibold'>Work Experience</h3>
-                  <div className='flex justify-center w-full min-h-[261px] h-[100%] lg-h-full'>
+                  <div className='flex justify-center w-full h-[261px] md-h-full'>
                      <Timeline />
                   </div>
                </div>
 
                <div className='h-1/2 w-full flex flex-col items-start gap-3 bg-white shadow-[0_1px_4px_rgba(0,0,0,0.16)] rounded-2xl p-5 text-center '>
                   <h3 className='text-2xl font-semibold'>My Expert Area</h3>
-                  <div className='w-full flex flex-col items-center justify-center gap-3.5'>
+                  <div className='w-full h-full flex flex-col items-center justify-center gap-3.5'>
                      <div className='flex justify-between items-center gap-7 sm:gap-4 lg:gap-7 w-full'>
                         <a href="#" className="w-1/3 text-[#777BB4] flex flex-col items-center justify-center gap-1">
                            <p className="w-full p-3 flex justify-center items-center bg-gray-100 rounded-md duration-300">
