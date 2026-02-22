@@ -186,31 +186,31 @@ function Home() {
                <div className="w-full max-w-full flex justify-between items-center gap-4 overflow-x-auto no-scrollbar overflow-hidden">
                   <div className="h-full bg-gray-100 text-gray-700 p-3 rounded-2xl flex flex-col gap-3 justify-center items-center">
                      <div className='bg-white w-full h-full p-8 flex justify-center items-center rounded-2xl shadow hover:shadow-2xl transition-all duration-300'>
-                        <BsCodeSlash className='text-green-500 size-10 font-medium' />
+                        <BsCodeSlash className='text-green-500 size-16 font-medium' />
                      </div>
                      <h4 className='text-sm text-center font-semibold'>Web Development</h4>
                   </div>
                   <div className="h-full bg-gray-100 text-gray-700 p-3 rounded-2xl flex flex-col gap-3 justify-center items-center">
                      <div className='bg-white w-full h-full p-8 flex justify-center items-center rounded-2xl shadow hover:shadow-2xl transition-all duration-300'>
-                        <LiaLaptopCodeSolid className='text-green-500 size-10' />
+                        <LiaLaptopCodeSolid className='text-green-500 size-16' />
                      </div>
                      <h4 className='text-sm text-center font-semibold'>Frontend Development</h4>
                   </div>
                   <div className="h-full bg-gray-100 text-gray-700 p-3 rounded-2xl flex flex-col gap-3 justify-center items-center">
                      <div className='bg-white w-full h-full p-8 flex justify-center items-center rounded-2xl shadow hover:shadow-2xl transition-all duration-300'>
-                        <FaWordpressSimple className='text-green-500 size-10' />
+                        <FaWordpressSimple className='text-green-500 size-16' />
                      </div>
                      <h4 className='text-sm text-center font-semibold'>WordPress Solutions</h4>
                   </div>
                   <div className="h-full bg-gray-100 text-gray-700 p-3 rounded-2xl flex flex-col gap-3 justify-center items-center">
                      <div className='bg-white w-full h-full p-8 flex justify-center items-center rounded-2xl shadow hover:shadow-2xl transition-all duration-300'>
-                        <PiBriefcaseLight className='text-green-500 size-10' />
+                        <PiBriefcaseLight className='text-green-500 size-16' />
                      </div>
                      <h4 className='text-sm text-center font-semibold'>Business Websites</h4>
                   </div>
                   <div className="h-full bg-gray-100 text-gray-700 p-3 rounded-2xl flex flex-col gap-3 justify-center items-center">
                      <div className='bg-white w-full h-full p-8 flex justify-center items-center rounded-2xl shadow hover:shadow-2xl transition-all duration-300'>
-                        <LiaToolsSolid className='text-green-500 size-10' />
+                        <LiaToolsSolid className='text-green-500 size-16' />
                      </div>
                      <h4 className='text-sm text-center font-semibold'>System Maintenance</h4>
                   </div>
