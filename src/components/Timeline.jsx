@@ -4,38 +4,38 @@ import { FaFacebook } from 'react-icons/fa'
 import { useMemo, useEffect, useRef, useState } from 'react';
 
 const experienceData = [
-   {
-      id: 1,
-      company: "Google LLC",
-      position: "Senior Software Engineer",
-      time: "2023 - Present",
-      logo: 'M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15H9v-4.99H7v-2h2V7h2v3.01h2v2h-2V17zm4-4h-2v-2h2v2z',
-      color: 'bg-red-500', // Changed for contrast
-      iconColor: 'text-white'
-   },
-   {
-      id: 2,
-      company: "Microsoft Research",
-      position: "Lead Data Scientist",
-      time: "2020 - 2023",
-      logo: 'M3 3h7v7H3zm11 0h7v7h-7zM3 14h7v7H3zm11 0h7v7h-7z',
-      color: 'bg-sky-500', // Changed for contrast
-      iconColor: 'text-white'
-   },
+   // {
+   //    id: 1,
+   //    company: "Google LLC",
+   //    position: "Senior Software Engineer",
+   //    time: "2023 - Present",
+   //    logo: 'M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15H9v-4.99H7v-2h2V7h2v3.01h2v2h-2V17zm4-4h-2v-2h2v2z',
+   //    color: 'bg-red-500', // Changed for contrast
+   //    iconColor: 'text-white'
+   // },
+   // {
+   //    id: 2,
+   //    company: "Microsoft Research",
+   //    position: "Lead Data Scientist",
+   //    time: "2020 - 2023",
+   //    logo: 'M3 3h7v7H3zm11 0h7v7h-7zM3 14h7v7H3zm11 0h7v7h-7z',
+   //    color: 'bg-sky-500', // Changed for contrast
+   //    iconColor: 'text-white'
+   // },
    {
       id: 3,
-      company: "Apple Inc.",
-      position: "Principal Product Manager",
-      time: "2018 - 2020",
+      company: "Vida Technology ",
+      position: "Jr Full-Stack Developer",
+      time: "2024 - Running",
       logo: 'M12 2c-3.1 0-5.5 1.5-6.5 4.5-.4 1.3-.3 2.8.2 4.1.6 1.6 1.7 3 3 4.2C9.7 17.5 11 19 12 19s2.3-1.5 3.3-4.2c1.3-1.2 2.4-2.6 3-4.2.5-1.3.6-2.8.2-4.1C17.5 3.5 15.1 2 12 2z',
       color: 'bg-gray-700', // Changed for professional dark look
       iconColor: 'text-white'
    },
    {
       id: 4,
-      company: "SpaceX",
-      position: "Aerospace Engineer",
-      time: "2015 - 2018",
+      company: "Edurlab",
+      position: "Frontend Developer",
+      time: "2025 - 2025",
       logo: 'M12 2c-5.52 0-10 4.48-10 10s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z',
       color: 'bg-indigo-600',
       iconColor: 'text-white'
