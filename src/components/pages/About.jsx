@@ -5,7 +5,7 @@ function About() {
    return (
       <>
          <h1>About</h1>
-         <p>This is a portfolio website built with ReactJS</p>
+         <p>cooming soon...</p>
          <Timeline />
       </>
    )
