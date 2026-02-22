@@ -36,7 +36,7 @@ const experienceData = [
       company: "Edurlab",
       position: "Frontend Developer",
       time: "2025 - 2025",
-      logo: 'M12 2c-5.52 0-10 4.48-10 10s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr48ZVhTtkGoWzrdFVAoyIFmw6ymuvw52WIA&s',
       color: 'bg-indigo-600',
       iconColor: 'text-white'
    },
@@ -72,9 +72,11 @@ const TimelineItem = ({ data, index }) => {
             {/* Timeline Icon (Dot on the Line) - Fixed size and margin */}
             <div className={`flex-shrink-0 z-20 ${iconOrder} ${iconMargin}`}>
                <div className={`w-10 h-10 ${data.color} rounded-full flex items-center justify-center shadow-2xl ring-4 ring-white dark:ring-gray-900 transition duration-300 hover:scale-110 cursor-pointer`}>
-                  <svg className={`w-5 h-5 ${data.iconColor}`} viewBox="0 0 24 24" fill="currentColor">
+                  {/* <svg className={`w-5 h-5 ${data.iconColor}`} viewBox="0 0 24 24" fill="currentColor">
                      <path d={data.logo} />
-                  </svg>
+                  </svg> */}
+                  <img className='w-10 h-10 rounded-full flex items-center justify-center shadow-2xl ring-4 ring-white dark:ring-gray-900 transition duration-300 hover:scale-110 cursor-pointer'
+                        src={data.logo} alt="" srcset="" />
                </div>
             </div>
 
