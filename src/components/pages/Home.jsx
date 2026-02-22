@@ -2,7 +2,7 @@ import React from 'react'
 import me from '../../assets/me.jpg'
 import news from '../../assets/news.png'
 import demand from '../../assets/demand.png'
-import { FaBootstrap, FaBriefcase, FaCode, FaFacebook, FaLaptopCode, FaReact, FaTools, FaWordpress, FaWordpressSimple, FaTwitter, FaLinkedin, FaGoogle, FaWhatsapp, FaYoutube  } from 'react-icons/fa'
+import { FaBootstrap, FaBriefcase, FaCode, FaFacebook, FaLaptopCode, FaReact, FaTools, FaWordpress, FaWordpressSimple, FaTwitter, FaLinkedin, FaGoogle, FaWhatsapp, FaYoutube, FaLink } from 'react-icons/fa'
 import Timeline from '../Timeline'
 import { BsArrow90DegUp, BsCodeSlash, BsViewList } from 'react-icons/bs'
 import { GrView } from 'react-icons/gr'
@@ -16,6 +16,13 @@ import { MdOutlineArrowOutward } from 'react-icons/md'
 import { IoMdArrowForward } from 'react-icons/io'
 
 function Home() {
+   const copyCurrentUrl = () => {
+      const url = window.location.href
+
+      navigator.clipboard.writeText(url)
+         .then(() => alert("Link copied!"))
+         .catch(() => alert("Failed to copy"))
+   }
    return (
       <>
          <section className='flex flex-col lg:flex-row gap-6 relative z-10 my-5 w-full max-w-full overflow-auto'>
@@ -35,7 +42,7 @@ function Home() {
                      <button className='w-1/2 bg-green-400 text-white p-4 text-xl font-semibold rounded-md'>Let's Talk</button>
                      <button className='w-1/2 border border-green-100 text-green-400 p-4 text-xl font-semibold rounded-md'>Let's Talk</button>
                   </div>
-                  <div className="flex items-center justify-between gap-2">
+                  <div className="w-full flex items-center justify-between gap-2">
                      <a href="https://web.facebook.com/?_rdc=1&_rdr#" className="text-gray-700 hover:text-green-500 border border-gray-300 rounded-md p-3 duration-300">
                         <FaFacebook size={24} />
                      </a>
@@ -56,7 +63,11 @@ function Home() {
                         <FaWhatsapp size={24} />
                      </a>
                      <a href="https://www.youtube.com/@Lifewithashik" className="text-gray-700 hover:text-green-500 border border-gray-300 rounded-md p-3 duration-300">
-                        <FaYoutube  size={24} />
+                        <FaYoutube size={24} />
+                     </a>
+                     <a onClick={copyCurrentUrl}
+                        className="cursor-pointer text-gray-700 hover:text-green-500 border border-gray-300 rounded-md p-3 duration-300">
+                        <FaLink size={24} />
                      </a>
                   </div>
 
