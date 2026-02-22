@@ -2,7 +2,7 @@ import React from 'react'
 import me from '../../assets/me.jpg'
 import news from '../../assets/news.png'
 import demand from '../../assets/demand.png'
-import { FaBootstrap, FaBriefcase, FaCode, FaFacebook, FaLaptopCode, FaReact, FaTools, FaWordpress, FaWordpressSimple, FaTwitter, FaLinkedin, FaGoogle, FaWhatsapp } from 'react-icons/fa'
+import { FaBootstrap, FaBriefcase, FaCode, FaFacebook, FaLaptopCode, FaReact, FaTools, FaWordpress, FaWordpressSimple, FaTwitter, FaLinkedin, FaGoogle, FaWhatsapp, FaYoutube  } from 'react-icons/fa'
 import Timeline from '../Timeline'
 import { BsArrow90DegUp, BsCodeSlash, BsViewList } from 'react-icons/bs'
 import { GrView } from 'react-icons/gr'
@@ -54,6 +54,9 @@ function Home() {
                         rel="noopener noreferrer"
                         className="ext-gray-700 hover:text-green-500 border border-gray-300 rounded-md p-3 duration-300">
                         <FaWhatsapp size={24} />
+                     </a>
+                     <a href="https://www.youtube.com/@Lifewithashik" className="text-gray-700 hover:text-green-500 border border-gray-300 rounded-md p-3 duration-300">
+                        <FaYoutube  size={24} />
                      </a>
                   </div>
 
