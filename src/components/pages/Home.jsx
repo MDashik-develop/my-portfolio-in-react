@@ -57,7 +57,7 @@ function Home() {
             <div className='h-auto min-h-full flex flex-col sm:flex-row lg:flex-col justify-between gap-5 lg:w-1/3'>
                <div className='h-1/2 w-full flex flex-col items-start gap-3 bg-white shadow-[0_1px_4px_rgba(0,0,0,0.16)] rounded-2xl p-5 text-center '>
                   <h3 className='text-2xl font-semibold'>Work Experience</h3>
-                  <div className='flex justify-center w-full min-h-[261px] lg-h-full'>
+                  <div className='flex justify-center w-full min-h-[261px] h-[100%] lg-h-full'>
                      <Timeline />
                   </div>
                </div>
